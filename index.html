@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel Joram Hernández Márquez | Desarrollador de software</title>
+<meta name="description" content="Estudiante de Ingeniería en Desarrollo de Software en el CETI. Proyectos en Java, Python, Next.js y Arduino.">
+<style>
+:root{--bg:#0f1115;--card:#171a21;--line:#262b36;--text:#e6e8ec;--muted:#9aa3b2;--accent:#5eead4}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px}
+header{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+header h1{font-size:2.2rem;line-height:1.2}
+header .role{color:var(--accent);margin-top:8px;font-weight:600}
+header p{color:var(--muted);margin-top:16px;max-width:620px}
+.links{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);padding:8px 16px;border-radius:8px;color:var(--text);font-size:.95rem}
+.btn:hover{border-color:var(--accent);text-decoration:none}
+section{padding:44px 0;border-bottom:1px solid var(--line)}
+h2{font-size:1.1rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;display:block;color:var(--text)}
+a.card:hover{border-color:var(--accent);text-decoration:none}
+.card h3{font-size:1.05rem;margin-bottom:6px}
+.card p{color:var(--muted);font-size:.93rem}
+.tags{margin-top:12px;display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:.75rem;border:1px solid var(--line);border-radius:999px;padding:2px 10px;color:var(--muted)}
+.badge{font-size:.7rem;color:var(--accent);margin-left:6px;font-weight:600}
+.tl{border-left:2px solid var(--line);padding-left:18px}
+.tl div{margin-bottom:18px}
+.tl b{display:block}
+.tl span{color:var(--muted);font-size:.92rem}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.skills h3{font-size:.95rem;margin-bottom:8px}
+footer{padding:32px 0 56px;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Daniel Joram Hernández Márquez</h1>
+    <div class="role">Estudiante de Ingeniería en Desarrollo de Software</div>
+    <p>Egresé como Tecnólogo en Desarrollo de Software del CETI y actualmente curso la ingeniería. Me interesan el desarrollo web, las bases de datos y conectar software con hardware. Busco crecer trabajando en proyectos reales de gran escala.</p>
+    <div class="links">
+      <a class="btn" href="https://github.com/Joram-10" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="#proyectos">Ver proyectos</a>
+    </div>
+  </header>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="grid">
+      <a class="card" href="https://github.com/Joram-10/nexusflow" target="_blank" rel="noopener">
+        <h3>NexusFlow</h3>
+        <p>Constructor visual de flujos de trabajo con nodos: lienzo interactivo, panel de propiedades y dashboard de ejecuciones.</p>
+        <div class="tags"><span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">Tailwind</span><span class="tag">React Flow</span></div>
+      </a>
+      <div class="card">
+        <h3>DyKarly <span class="badge">EN DESARROLLO</span></h3>
+        <p>Sistema para homeópatas que funciona 100% offline.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">SQLite</span></div>
+      </div>
+      <a class="card" href="https://github.com/Joram-10/arduino-consola-java" target="_blank" rel="noopener">
+        <h3>Arduino Consola</h3>
+        <p>Programa en Java que controla un Arduino por puerto serial desde un menú de consola, con su sketch incluido.</p>
+        <div class="tags"><span class="tag">Java</span><span class="tag">Arduino</span><span class="tag">Serial</span></div>
+      </a>
+      <a class="card" href="https://github.com/Joram-10/arduino-menu-swing" target="_blank" rel="noopener">
+        <h3>Arduino Menu Swing</h3>
+        <p>Interfaz gráfica en Java Swing para elegir el puerto, conectarse y enviar comandos a un Arduino.</p>
+        <div class="tags"><span class="tag">Java</span><span class="tag">Swing</span><span class="tag">Arduino</span></div>
+      </a>
+      <a class="card" href="https://github.com/Joram-10/juego-vial-pygame" target="_blank" rel="noopener">
+        <h3>Juego Vial</h3>
+        <p>Juego educativo para practicar las señales de tránsito de México, con dos niveles y personajes.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">Pygame</span></div>
+      </a>
+      <a class="card" href="https://github.com/Joram-10?tab=repositories" target="_blank" rel="noopener">
+        <h3>Todos los repositorios</h3>
+        <p>Más código y proyectos en mi perfil de GitHub.</p>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Formación</h2>
+    <div class="tl">
+      <div><b>Ingeniería en Desarrollo de Software</b><span>CETI Tonalá · cursando</span></div>
+      <div><b>Tecnólogo en Desarrollo de Software</b><span>CETI Río Santiago · egresado</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Tecnologías</h2>
+    <div class="skills">
+      <div class="card"><h3>Lenguajes</h3><div class="tags"><span class="tag">Python</span><span class="tag">JavaScript / Node.js</span><span class="tag">TypeScript</span><span class="tag">Java</span><span class="tag">C++</span><span class="tag">Ensamblador</span></div></div>
+      <div class="card"><h3>Bases de datos y servicios</h3><div class="tags"><span class="tag">SQLite</span><span class="tag">MySQL</span><span class="tag">MongoDB</span><span class="tag">Supabase</span><span class="tag">Vercel</span></div></div>
+      <div class="card"><h3>Hardware y móvil</h3><div class="tags"><span class="tag">Arduino</span><span class="tag">ESP32</span><span class="tag">Android</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <p>Mi código y proyectos están en <a href="https://github.com/Joram-10" target="_blank" rel="noopener">github.com/Joram-10</a>.</p>
+  </section>
+
+  <footer>© Daniel Joram Hernández Márquez</footer>
+</div>
+</body>
+</html>
